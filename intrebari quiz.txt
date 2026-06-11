@@ -1,0 +1,84 @@
+INTREBARI QUIZ - SECURITATEA SISTEMELOR
+========================================
+
+Q6. Pe cati biti sunt adresele de pe stiva din SeedUbuntu?
+  a. 64 bits
+  b. nici o varianta din cele enumerate
+  c. 16 bits
+  d. 8 bits
+RASPUNS CORECT: b. nici o varianta din cele enumerate
+
+----------------------------------------
+
+Q7. Care afirmatie de mai jos reprezinta un pas pentru rezolvarea atacului return to LibC?
+  a. Construirea argumentului pentru functia system()
+  b. Stiva trebuia sa fie facuta executabila
+  c. Construirea argumentului pentru functie exit()
+  d. nici o varianta din cele enumerate
+RASPUNS CORECT: a. Construirea argumentului pentru functia system()
+
+----------------------------------------
+
+Q8. Care din urmatoarele afirmatii este adevarata?
+  a. Invocarea unor comenzi folosind functia system() este sigura
+  b. Variabilele de mediu nu pot influenta comportamentul functiei system()
+  c. Functia system() invoca aplicatia shell
+  d. Functia execve() invoca aplicatia shell
+RASPUNS CORECT: c. Functia system() invoca aplicatia shell
+
+----------------------------------------
+
+Q9. Care din urmatoarele afirmatii este falsa cu privire la programe SET-UID?
+  a. RUID (real user identifier) este acelasi cu EUID (effective user identifier)
+  b. pot castiga privilegii de root in timpul executiei programelor
+  c. se pot exploata vulnerabilitati asupra programelor SET-UID
+  d. RUID este diferit de EUID
+RASPUNS CORECT: a. RUID (real user identifier) este acelasi cu EUID (effective user identifier)
+
+----------------------------------------
+
+Q (buffer ebp). In cazul unui buffer de 24 octeti, distanta in octeti dintre adresa continuta in registrul ebp si adresa de inceput a bufferului este de 32 octeti, cat ar fi in cazul unui buffer de 12 octeti?
+  a. 36 octeti
+  b. 44 octeti
+  c. 12 octeti
+  d. 20 octeti
+RASPUNS CORECT: d. 20 octeti
+
+----------------------------------------
+
+Q (execve params). Care din urmatoarele afirmatii este adevarata cu privire la parametrii functiei execve()?
+  a. Primeste ca input 2 parametrii
+  b. Comanda si datele nu sunt separate.
+  c. Comanda si datele sunt separate.
+  d. nici una din cele enumerate
+RASPUNS CORECT: c. Comanda si datele sunt separate.
+
+----------------------------------------
+
+Q (variabile de mediu). Care din urmatoarele afirmatii este adevarata?
+  a. Variabilele de mediu nu se transmit de la procesul parinte la procesul copil.
+  b. Variabilele de mediu se transmit de la procesul parinte la procesul copil
+  c. Invocarea unor comenzi folosind functia system() este sigura
+  d. Functia execve() invoca aplicatia shell
+RASPUNS CORECT: b. Variabilele de mediu se transmit de la procesul parinte la procesul copil
+
+----------------------------------------
+
+Q (SET-UID adevarat). Care din urmatoarele afirmatii este adevarata?
+  a. nici o varianta din cele enumerate mai sus
+  b. Un program Set to root UID nu poate castiga privilegii de root.
+  c. Variabilele de mediu nu se transmit de la procesul parinte la procesul copil.
+  d. Functia execve() invoca aplicatia shell
+RASPUNS CORECT: a. nici o varianta din cele enumerate mai sus
+
+----------------------------------------
+
+Q (NOP). Ce rol au NOP-urile din buffer in contextul atacului de buffer overflow?
+  a. maresc plaja de adrese pentru return address si cresc sansele atacului
+  b. nu au nici un rol
+  c. sunt doar pentru a avea continut in buffer
+  d. nu maresc plaja de adrese pentru return address si scad sansele atacului
+RASPUNS CORECT: a. maresc plaja de adrese pentru return address si cresc sansele atacului
+
+========================================
+Total intrebari: 9
