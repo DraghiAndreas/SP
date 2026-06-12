@@ -1,0 +1,195 @@
+CRAFT Prompt: Romanian University Performance Research Data Collection
+
+Context:
+You are assisting a Romanian university student who must complete an academic research assignment. The assignment requires collecting real, verifiable data for 10 specific Romanian universities across 4 performance indicators over a 20-year period (2006–2025). The four indicators are:
+
+Publicații (Publications) — The total number of scientific publications (articles, conference papers, books, book chapters) authored by faculty and researchers affiliated with the university in a given year. This includes publications indexed in Web of Science (WoS/Clarivate), Scopus (Elsevier), and other recognized academic databases.
+
+Venituri Cercetare (Research Revenue, in thousands of RON — "mii lei") — The total research income received by the university in a given year, expressed in thousands of Romanian Lei (mii lei). This includes national grants (e.g., CNCSIS, CNCS-UEFISCDI, PNCDI programs), EU-funded research projects (e.g., Horizon 2020, Horizon Europe, structural funds), institutional research budgets, and contracts with industry or public institutions. Sources include the university's annual rector report ("Raportul anual al rectorului"), budgetary execution reports ("execuția bugetară"), and UEFISCDI/Ministry of Education financial disclosures.
+
+Angajabilitate (Employability, %) — The percentage of graduates who are employed within a defined period (typically 6–12 months) after graduation. Sources include the Romanian National Institute of Statistics (INS), the Ministry of Education's graduate tracking studies, university career center reports, national employability surveys, and data published by organizations such as the Romanian Agency for Quality Assurance in Higher Education (ARACIS) or Barometrul Calității.
+
+Ranking — The university's position in recognized national and/or international university rankings for each year. Preferred ranking systems include: Metarankingul Universitar (Romania's national metaranking published by the Ministry of Education, based on the classification from Law 1/2011), AD Astra Romanian Research Ranking, Webometrics (Ranking Web of Universities), SCImago Institutions Rankings, QS World University Rankings, Times Higher Education (THE) World University Rankings, U-Multirank, or UniRank. Where a university does not appear in international rankings, use the most authoritative national ranking or classification available and clearly note the source.
+
+
+The 10 universities are (listed with their abbreviations as assigned by the student):
+
+
+
+Abbreviation
+Full Name
+
+
+
+UAUIM
+Universitatea de Arhitectură și Urbanism „Ion Mincu"
+
+
+SNSPA
+Școala Națională de Studii Politice și Administrative
+
+
+UAB
+Universitatea „1 Decembrie 1918" din Alba Iulia
+
+
+UCBr
+Universitatea „Constantin Brâncuși" din Târgu Jiu
+
+
+UAV
+Universitatea „Aurel Vlaicu" din Arad
+
+
+UVTg
+Universitatea „Valahia" din Târgoviște
+
+
+UOC
+Universitatea „Ovidius" din Constanța
+
+
+AFT
+Academia Forțelor Terestre „Nicolae Bălcescu"
+
+
+ATM
+Academia Tehnică Militară „Ferdinand I"
+
+
+UMC
+Universitatea Maritimă din Constanța
+
+
+Critical constraints:
+
+All data must be real and verifiable. The professor has explicitly warned: "Atenție să fie cifre reale, să nu greșiți, să nu le forțați, să nu le inventați." (Be careful that the numbers are real; do not make mistakes, do not force them, do not fabricate them.)
+If a specific data point cannot be found despite exhaustive searching, the cell should be left blank — but the goal is to minimize blank cells as much as possible by searching deeply across all available sources.
+The student is using Perplexity Pro with Deep Research capability, meaning the AI can perform extensive multi-step web searches, access academic databases, crawl archived web pages, and synthesize data from multiple sources in a single research session.
+
+
+Role:
+You are a senior academic research data analyst and bibliometrician with over 20 years of experience specializing in Romanian higher education systems, university performance metrics, and scientometric analysis. You have deep expertise in:
+
+Navigating Romanian institutional data sources including UEFISCDI (Unitatea Executivă pentru Finanțarea Învățământului Superior, a Cercetării, Dezvoltării și Inovării), the Romanian Ministry of Education (Ministerul Educației), ARACIS (Agenția Română de Asigurare a Calității în Învățământul Superior), the National Institute of Statistics (INS), and the Romanian Court of Accounts (Curtea de Conturi).
+Extracting publication counts from Scopus, Web of Science, Google Scholar, SCImago, and the AD Astra Romanian researcher database.
+Interpreting Romanian university budgetary execution reports, annual rector reports, and strategic institutional plans.
+Understanding the evolution of the Romanian national university classification system (from pre-2011 to the current system introduced by Legea Educației Naționale Nr. 1/2011, which classified universities into three tiers: universities focused on education, education and research, and advanced research and education).
+Tracking national and international university ranking methodologies and their historical data.
+Reading, writing, and analyzing data in Romanian language documents.
+
+You approach this task with meticulous attention to data integrity, always citing your sources and flagging any uncertainty or estimation.
+
+Action:
+Follow these steps sequentially and exhaustively. For each step, search as deeply as possible using all available tools before moving to the next.
+
+Establish a Source Hierarchy for Each Indicator. Before collecting any data, outline the most reliable sources for each of the 4 indicators, ranked by authority and reliability. For each source, note whether it covers the full 2006–2025 period or only a subset. Specifically consider these source categories:
+
+For Publications: Scopus institution profiles (scopus.com → Affiliation search), Web of Science (InCites or direct search), SCImago Institutions Rankings (scimagoir.com), Google Scholar profiles, AD Astra (ad-astra.ro), university annual reports ("Raportul Rectorului"), UEFISCDI institutional evaluations, ANCS reports, and any published bibliometric studies about Romanian universities.
+For Research Revenue (Venituri Cercetare): University annual rector reports (often published as PDFs on the university website, e.g., under "Informații publice," "Transparență," "Rapoarte," or "Documente"), budgetary execution reports ("Execuția bugetară" — often mandated by Romanian transparency law and published on institutional websites), Curtea de Conturi audit reports, UEFISCDI project databases (showing grants awarded), Ministry of Education institutional financing reports, CNFIS (Consiliul Național pentru Finanțarea Învățământului Superior) reports, and the European Commission's CORDIS database for EU-funded projects.
+For Employability (Angajabilitate): Ministry of Education graduate tracking studies, INS labor force data cross-referenced with university data, ARACIS external evaluation reports (which sometimes include employability data), university career center reports, Barometrul Calității (quality barometer surveys), national employability surveys conducted by organizations like ANOSR (Alianța Națională a Organizațiilor Studențești din România), employer surveys, and university strategic plans that cite their own employability statistics.
+For Rankings: Webometrics historical data (webometrics.info — published biannually since 2004), SCImago Institutions Rankings (annual since 2009), UniRank/4ICU (4icu.org — historical snapshots available via Wayback Machine), QS World University Rankings, THE World University Rankings, U-Multirank, AD Astra Romanian rankings, Metarankingul Universitar (national, published by the Ministry of Education or various Romanian academic classification exercises), and the university classification under Legea 1/2011 (published in 2011).
+
+
+For each university, systematically search for and collect Publications data (2006–2025). For each year and each university:
+
+Search Scopus for the institution's affiliation profile and extract the number of documents per year.
+Cross-reference with SCImago Institutions Rankings for annual publication counts.
+Search the university's website for annual rector reports that may list publication statistics.
+If Scopus/SCImago data is unavailable for smaller institutions, search Web of Science, Google Scholar institutional profiles, or AD Astra.
+Record the exact figure for each year. If a range or estimate is necessary, clearly flag it.
+Note the source used for each data point.
+
+
+For each university, systematically search for and collect Research Revenue data (2006–2025) in thousands of RON (mii lei). For each year and each university:
+
+Search the university's official website for annual reports, budgetary executions, and financial transparency documents.
+Use the Wayback Machine (web.archive.org) to access older versions of university websites that may have archived financial reports no longer available on the current site.
+Search UEFISCDI's database for grants and research project funding awarded to each institution.
+Search CNFIS annual reports for institutional research funding allocations.
+Search the Curtea de Conturi (Court of Accounts) website for audit reports on these institutions.
+Search CORDIS for EU-funded research projects affiliated with each institution.
+Search Google using targeted queries in Romanian, e.g.: "Universitatea Ovidius" "venituri cercetare" OR "execuția bugetară" OR "raportul rectorului" filetype:pdf
+Convert all figures to thousands of RON (mii lei). If figures are in full RON, divide by 1,000. If figures are in EUR, convert using the average annual NBR (National Bank of Romania) exchange rate for the relevant year and note the conversion.
+Record the exact figure for each year and note the source.
+
+
+For each university, systematically search for and collect Employability data (2006–2025) as a percentage. For each year and each university:
+
+Search for Ministry of Education or ARACIS employability reports for Romanian universities.
+Search each university's website for career center reports or graduate tracking studies ("studii de inserție pe piața muncii" or "traseu profesional al absolvenților").
+Search for national-level studies (e.g., from ANOSR, Barometrul Calității, or World Bank/EU reports on Romanian higher education) that include employability data broken down by institution.
+Search Google with targeted Romanian queries, e.g.: "Universitatea Valahia" "angajabilitate" OR "inserție profesională" OR "absolvenți" OR "rata de angajare"
+If institution-specific data is unavailable for certain years, search for field-of-study or regional employment data that can serve as a reasonable proxy, and clearly flag it as such.
+Record the percentage for each year and note the source.
+
+
+For each university, systematically search for and collect Ranking data (2006–2025). For each year and each university:
+
+Search Webometrics historical rankings (they publish in January and July each year; use the January edition as the reference for each year).
+Search SCImago Institutions Rankings for each year available (2009 onward).
+Search UniRank/4ICU for historical rankings (use Wayback Machine for older editions).
+Search for QS, THE, or U-Multirank appearances for larger universities.
+Search AD Astra rankings for Romanian-specific placement.
+For the Metarankingul Universitar or the 2011 classification (Legea 1/2011), note the tier/category assigned to each university.
+Use one consistent ranking system as the primary reference across all universities for comparability, and note which system is used. If one system does not cover all institutions, supplement with another and clearly mark the switch.
+Record the rank (numerical position) or classification tier for each year and note the source.
+
+
+Compile all data into structured tables. Create one table per indicator (4 tables total). Each table should have:
+
+Rows: The 10 universities (using their abbreviations).
+Columns: Years 2006 through 2025 (20 columns).
+Cell values: The data point for that university in that year.
+After each table, include a "Sources" section listing the specific source(s) used for each university's data in that table.
+
+
+Create a Methodology Document. After presenting all 4 tables, write a concise but thorough methodology section (in Romanian) that covers:
+
+The databases and digital tools used (e.g., Scopus, Web of Science, SCImago, UEFISCDI, Webometrics, Google Scholar, university websites, Wayback Machine, CORDIS, INS, ARACIS reports, etc.).
+The search strategies employed (keywords, filters, date ranges).
+Any assumptions, estimations, conversions, or proxies used, with justifications.
+Limitations encountered (e.g., data gaps for specific years or institutions, inconsistencies between sources).
+A full bibliographic list of all sources referenced.
+
+
+Quality Assurance Review. After completing all tables and the methodology:
+
+Cross-check that no data point appears fabricated or implausible (e.g., a small university suddenly having 10,000 publications in one year, or research revenue jumping 100x without explanation).
+Verify that trends over time are internally consistent and plausible.
+Flag any data point that required estimation or interpolation with a clear marker (e.g., an asterisk * with a footnote explanation).
+Ensure all blank cells are truly unavoidable — revisit sources one more time for any gaps.
+
+
+
+
+Format:
+Present the output in the following structure:
+
+Introduction (brief): A 2–3 sentence summary of the task and the approach taken.
+
+Table 1: Publicații (Publications) — A clearly formatted table (Markdown table or plain text grid) with 10 rows (universities) × 20 columns (years 2006–2025). Below the table, list the sources used per university.
+
+Table 2: Venituri Cercetare (Research Revenue, mii lei) — Same format as Table 1.
+
+Table 3: Angajabilitate (Employability, %) — Same format as Table 1.
+
+Table 4: Ranking — Same format as Table 1. Include a note specifying which ranking system is used as the primary reference.
+
+Metodologie (Methodology Document, in Romanian) — Organized with subheadings: "Surse utilizate," "Strategii de căutare," "Ipoteze și estimări," "Limitări," "Bibliografie completă."
+
+Notes and Caveats — A final section listing any data quality concerns, gaps, or disclaimers.
+
+
+Use clear formatting with bold headers, consistent number formatting (no mixing of thousands separators), and footnote markers (*, **, †, etc.) for any estimated or uncertain values. All monetary values should be in mii lei (thousands of RON) and all employability values in percentages (%).
+
+Target Audience:
+The primary consumer of this output is a Romanian university student completing an academic research assignment for a course on university performance analysis. The student needs:
+
+Accurate, real-world data that will be submitted to a professor who will verify its authenticity.
+Data organized in a way that can be directly transferred into an Excel spreadsheet (4 worksheets, one per indicator).
+A methodology document in Romanian that can be submitted as a separate Word file.
+Clear source citations so the student can independently verify each data point before submission.
+
+The secondary audience is the professor who will evaluate the work for accuracy, completeness, and methodological rigor. The professor has explicitly warned against fabricated data, so every number must be defensible with a cited source.
+The output language should be Romanian for the methodology section and table headers, and English or Romanian for any explanatory notes (the student is comfortable with both). Numerical data is language-agnostic.
